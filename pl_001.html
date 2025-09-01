@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Pl Test 1 !!!</title>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    </head>
+    <body>
+        <div id="OurDiv"></div>
+        <script>
+            ar_x = [23,54,34,64];
+            ar_y = [43,32,56,12];
+            
+            const data = [{x:ar_x,y:ar_y,mode:"markers"}];
+            const layout = {
+                            xaxis:{range: [10,100],title:"X and more"},
+                            yaxis:{range: [5,150],title:"new Hope"},
+                            title: "Main title"
+                            };
+            
+            Plotly.newPlot("OurDiv",data,layout);
+        </script>
+            
+    </body>
+</html>
