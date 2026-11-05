@@ -1,7 +1,10 @@
 {
   "np" :
   [
-    func : {},
+    func : {
+      [array, ]
+      , "random" : [normal, ]
+    },
     var : {}
   ]
   "plt" : 
