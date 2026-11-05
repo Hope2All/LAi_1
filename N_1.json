@@ -1,1 +1,12 @@
-
+{
+  "np" :
+  [
+    func : {},
+    var : {}
+  ]
+  "plt" : 
+  [
+    func : { plot, subplot, scatter, show, hist, },
+    var : {}
+  ]
+}
