@@ -1,1 +1,33 @@
 
+{
+  "include" : 
+  {
+    np : "import numpy as np",
+    plt :  "import matplotlib.pyplot as plt",
+    stats : "from scipy import stats",
+    
+  }
+}
+
+
+{
+  "np" :
+  [
+    func : {
+      [ array, std, percentile,  ]
+      , "random" : [ normal, uniform,  ]
+    },
+    var : {}
+  ] ,
+  "plt" : 
+  [
+    func : { plot, subplot, scatter, show, hist, },
+    var : {}
+  ] ,
+ "stats" : 
+  [
+    func : { linregress,  },
+    var : {}
+  ]
+}
+
