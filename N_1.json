@@ -11,10 +11,15 @@
 
 
 {
+  "" : 
+  [
+    func : { map, },
+    var : {}
+  ]
   "np" :
   [
     func : {
-      [ array, std, percentile,  ]
+      [ array, std, percentile, poly1d, polyfit, linspace,  ]
       , "random" : [ normal, uniform,  ]
     },
     var : {}
