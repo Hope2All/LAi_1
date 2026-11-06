@@ -34,7 +34,7 @@
   ],
   "plt" : 
   [
-    func : { plot, subplot, scatter, show, hist, },
+    func : { plot, subplot, scatter, show, hist, pie, lengend,  },
     var : {}
   ] ,
  "stats" : 
