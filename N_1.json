@@ -14,7 +14,7 @@
 
 
 {
-  "" : 
+  "///" : 
   [
     func : { map, range,  },
     var : {}
@@ -23,7 +23,7 @@
   [
     func : {
       [ array, arange, std, percentile, poly1d, polyfit, linspace,  ]
-      , "random" : [ normal, uniform,  ]
+      , "random" : [ normal, uniform, seed,  ]
     },
     var : {}
   ] ,
