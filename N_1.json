@@ -5,7 +5,8 @@
     np : "import numpy as np",
     plt :  "import matplotlib.pyplot as plt",
     stats : "from scipy import stats",
-    
+    r2_score : "from sklearn.metrics import r2_score"
+
   }
 }
 
@@ -32,6 +33,11 @@
  "stats" : 
   [
     func : { linregress,  },
+    var : {}
+  ] ,
+ "r2_score" : 
+  [
+    func : { r2_score,  },
     var : {}
   ]
 }
