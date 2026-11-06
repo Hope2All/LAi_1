@@ -18,7 +18,7 @@
   [
     func : { map, range,  },
     var : {}
-  ]
+  ],
   "np" :
   [
     func : {
@@ -27,6 +27,11 @@
     },
     var : {}
   ] ,
+  "pd" : 
+  [
+    func : { read_csv,  },
+    var : {}
+  ],
   "plt" : 
   [
     func : { plot, subplot, scatter, show, hist, },
