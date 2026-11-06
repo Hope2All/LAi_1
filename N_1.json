@@ -42,7 +42,7 @@
     func : { 
       [ ],
     "r2_score" : [r2_score],
-    "linear_model" : [LinearRegression]
+    "linear_model" : [LinearRegression : ??{fit, predict}]
     },
     var : {}
   ]
