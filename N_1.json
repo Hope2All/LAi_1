@@ -18,10 +18,15 @@
       , "random" : [ normal, uniform,  ]
     },
     var : {}
-  ]
+  ] ,
   "plt" : 
   [
     func : { plot, subplot, scatter, show, hist, },
+    var : {}
+  ] ,
+ "stats" : 
+  [
+    func : { linregress,  },
     var : {}
   ]
 }
