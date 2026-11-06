@@ -3,9 +3,11 @@
   "include" : 
   {
     np : "import numpy as np",
+    pd : "import pandas as pd",
     plt :  "import matplotlib.pyplot as plt",
     stats : "from scipy import stats",
-    r2_score : "from sklearn.metrics import r2_score"
+    r2_score : "from sklearn.metrics import r2_score",
+    linear_model : "from sklearn import linear_model"
 
   }
 }
@@ -14,13 +16,13 @@
 {
   "" : 
   [
-    func : { map, },
+    func : { map, range,  },
     var : {}
   ]
   "np" :
   [
     func : {
-      [ array, std, percentile, poly1d, polyfit, linspace,  ]
+      [ array, arange, std, percentile, poly1d, polyfit, linspace,  ]
       , "random" : [ normal, uniform,  ]
     },
     var : {}
@@ -35,9 +37,13 @@
     func : { linregress,  },
     var : {}
   ] ,
- "r2_score" : 
+ "sklearn" : 
   [
-    func : { r2_score,  },
+    func : { 
+      [ ],
+    "r2_score" : [r2_score],
+    "linear_model" : [LinearRegression]
+    },
     var : {}
   ]
 }
