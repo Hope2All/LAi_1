@@ -2,8 +2,8 @@
   "np" :
   [
     func : {
-      [array, ]
-      , "random" : [normal, ]
+      [array, std, percentile,  ]
+      , "random" : [normal,uniform,  ]
     },
     var : {}
   ]
