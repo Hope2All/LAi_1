@@ -23,8 +23,9 @@
   "np" :
   [
     func : {
-      [ array, arange, std, percentile, poly1d, polyfit, linspace, concatenate, frompyfunc, substract, add, divide, multiply, power, mod, sum, cumsum, diff, divmod, abs, log2, log10, log, lcm.reduce, gcd.reduce, unique, union1d, intersect1d, ]
-      , "random" : [ normal, uniform, seed,  ]
+      [ array, arange, std, percentile, poly1d, polyfit, linspace, concatenate, frompyfunc, substract, add, divide, multiply, power, mod, sum, cumsum, diff, divmod, abs, log2, log10, log, lcm.reduce, gcd.reduce,
+        unique, union1d, intersect1d, setdiff1d, setxor1d,  ]
+      , "random" : [ normal, binomial, uniform, seed,  ]
     },
     var : {}
   ] ,
