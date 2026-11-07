@@ -4,6 +4,7 @@
   {
     np : "import numpy as np",
     pd : "import pandas as pd",
+    log : "from math import log"
     plt :  "import matplotlib.pyplot as plt",
     stats : "from scipy import stats",
     r2_score : "from sklearn.metrics import r2_score",
@@ -22,7 +23,7 @@
   "np" :
   [
     func : {
-      [ array, arange, std, percentile, poly1d, polyfit, linspace, concatenate, frompyfunc, substract, add, divide, multiply,  ]
+      [ array, arange, std, percentile, poly1d, polyfit, linspace, concatenate, frompyfunc, substract, add, divide, multiply, power, mod, divmod, abs, log2, log10, log, ]
       , "random" : [ normal, uniform, seed,  ]
     },
     var : {}
