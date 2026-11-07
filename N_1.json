@@ -22,7 +22,7 @@
   "np" :
   [
     func : {
-      [ array, arange, std, percentile, poly1d, polyfit, linspace,  ]
+      [ add, array, arange, std, percentile, poly1d, polyfit, linspace, concatenate, frompyfunc ]
       , "random" : [ normal, uniform, seed,  ]
     },
     var : {}
