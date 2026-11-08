@@ -2,10 +2,14 @@
 {
   "include" : 
   {
+    sys : "import sys",
+    time : "import time",
     np : "import numpy as np",
     pd : "import pandas as pd",
+    log : "from math import log"
     plt :  "import matplotlib.pyplot as plt",
     stats : "from scipy import stats",
+    matrics : "from sklearn import metrics"
     r2_score : "from sklearn.metrics import r2_score",
     linear_model : "from sklearn import linear_model"
 
@@ -16,14 +20,25 @@
 {
   "///" : 
   [
-    func : { map, range,  },
+    func : { map, range, insert, append, index, },
+    var : {}
+  ],
+  "sys" : 
+  [
+    func : { "stdout" : [ write, flush ]  },
+    var : {}
+  ],
+   "time" : 
+  [
+    func : { sleep,  },
     var : {}
   ],
   "np" :
   [
     func : {
-      [ array, arange, std, percentile, poly1d, polyfit, linspace,  ]
-      , "random" : [ normal, uniform, seed,  ]
+      [ array, arange, std, percentile, poly1d, polyfit, linspace, concatenate, frompyfunc, substract, add, divide, multiply, power, mod, sum, cumsum, diff, divmod, abs, log2, log10, log, lcm.reduce, gcd.reduce,
+        unique, union1d, intersect1d, setdiff1d, setxor1d,  ]
+      , "random" : [ normal, binomial, uniform, seed,  ]
     },
     var : {}
   ] ,
@@ -48,6 +63,7 @@
       [ ],
     "r2_score" : [r2_score],
     "linear_model" : [LinearRegression : ??{fit, predict}]
+    "matrics" : [confusion_matrix, ]
     },
     var : {}
   ]
