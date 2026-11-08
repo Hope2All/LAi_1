@@ -2,6 +2,8 @@
 {
   "include" : 
   {
+    sys : "import sys",
+    time : "import time",
     np : "import numpy as np",
     pd : "import pandas as pd",
     log : "from math import log"
@@ -19,6 +21,16 @@
   "///" : 
   [
     func : { map, range, insert, append, index, },
+    var : {}
+  ],
+  "sys" : 
+  [
+    func : { "stdout" : [ write, flush ]  },
+    var : {}
+  ],
+   "time" : 
+  [
+    func : { sleep,  },
     var : {}
   ],
   "np" :
