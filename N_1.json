@@ -67,7 +67,7 @@
   ] ,
 "mysql.connector" : 
   [
-    func : { connect,  },
+    func : { connect, cursor, execute, },
     var : {}
   ] ,
  "sklearn" : 
