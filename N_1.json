@@ -11,8 +11,9 @@
     stats : "from scipy import stats",
     matrics : "from sklearn import metrics"
     r2_score : "from sklearn.metrics import r2_score",
-    linear_model : "from sklearn import linear_model"
-
+    linear_model : "from sklearn import linear_model"    
+    tree : "from sklearn import tree"
+    DecisionTreeClassifier : "from sklearn.tree import DecisionTreeClassifier"
   }
 }
 
