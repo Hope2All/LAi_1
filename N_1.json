@@ -14,6 +14,7 @@
     r2_score : "from sklearn.metrics import r2_score",
     linear_model : "from sklearn import linear_model"    
     tree : "from sklearn import tree",
+    mysql.connector : "import mysql.connector",
     DecisionTreeClassifier : "from sklearn.tree import DecisionTreeClassifier"
   }
 }
@@ -62,6 +63,11 @@
  "stats" : 
   [
     func : { linregress,  },
+    var : {}
+  ] ,
+"mysql.connector" : 
+  [
+    func : { connect,  },
     var : {}
   ] ,
  "sklearn" : 
