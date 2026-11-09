@@ -3,16 +3,17 @@
   "include" : 
   {
     sys : "import sys",
+    math : "from math",
     time : "import time",
     np : "import numpy as np",
     pd : "import pandas as pd",
-    log : "from math import log"
+    log : "from math import log",
     plt :  "import matplotlib.pyplot as plt",
     stats : "from scipy import stats",
     matrics : "from sklearn import metrics"
     r2_score : "from sklearn.metrics import r2_score",
     linear_model : "from sklearn import linear_model"    
-    tree : "from sklearn import tree"
+    tree : "from sklearn import tree",
     DecisionTreeClassifier : "from sklearn.tree import DecisionTreeClassifier"
   }
 }
@@ -29,6 +30,11 @@
     func : { "stdout" : [ write, flush ]  },
     var : {}
   ],
+   "math" : 
+  [
+    func : { floor, ceil,  },
+    var : {}
+  ] ,
    "time" : 
   [
     func : { sleep,  },
