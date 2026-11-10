@@ -23,7 +23,7 @@
 {
   "///" : 
   [
-    func : { map, range, insert, append, index, },
+    func : { map, range, insert, append, index, open, read, readline, seek, items, type, },
     var : {}
   ],
   "sys" : 
