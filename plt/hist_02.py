@@ -1,3 +1,6 @@
+# URL : https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html
+# Tips : Create Math function by code !!!!
+
 import matplotlib.pyplot as plt
 import numpy as np
 
