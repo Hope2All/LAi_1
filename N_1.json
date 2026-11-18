@@ -17,6 +17,10 @@
     mysql.connector : "import mysql.connector",
     DecisionTreeClassifier : "from sklearn.tree import DecisionTreeClassifier"
   }
+  "Setting" : 
+  {
+    "Spyder" : { " %matplotlib inline ", }
+  }
 }
 
 
@@ -45,7 +49,7 @@
   [
     func : {
       [ array, arange, std, percentile, poly1d, polyfit, nditer, linspace, concatenate, frompyfunc, substract, add, divide, multiply, power, mod, sum, cumsum, diff, divmod, abs, log2, log10, log, lcm.reduce, gcd.reduce,
-        unique, union1d, intersect1d, setdiff1d, setxor1d,  ]
+        unique, union1d, intersect1d, setdiff1d, setxor1d, exp,  ]
       , "random" : [ normal, binomial, uniform, seed,  ]
     },
     var : {}
