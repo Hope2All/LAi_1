@@ -64,8 +64,9 @@
     func : { plot, subplot, scatter, show, hist, pie, lengend, style.use('dark_background'),  },
     var : {}
     ex : {      
-plt.rcParams['axes.facecolor'] = 'gray'
-plt.rcParams['figure.facecolor'] = 'gray'
+plt.rcParams['axes.facecolor'] = 'gray' 
+plt.rcParams['figure.facecolor'] = 'gray' ;
+ax.set_facecolor("lightblue")   # Colors the plot area ;
     }
   ] ,
  "stats" : 
